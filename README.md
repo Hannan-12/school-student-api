@@ -17,6 +17,12 @@ This is a small secondary Java portfolio project demonstrating a layered REST AP
 - Maven installed (`mvn`); this repository documents installed Maven because its Maven wrapper configuration is incomplete.
 - MongoDB running locally or reachable at the configured host and port.
 
+The Maven project lives in [`Lab 7/`](Lab%207/). Run the Maven commands below from that directory:
+
+```sh
+cd "Lab 7"
+```
+
 The default local settings use `localhost:27017` and database `schoolDB`. The current `application.properties` contains only safe local defaults; keep real credentials out of it. Git ignore rules cover local property overrides and environment files. To create or refresh the local file from the checked-in example:
 
 ```sh
